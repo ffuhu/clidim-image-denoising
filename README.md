@@ -1,2 +1,2 @@
-# CLIDiM: Contrastive Learning for Image Denoising in Microscopy
-Repository for the paper "CLIDiM: Contrastive Learning for Image Denoising in Microscopy".
+# Generalizable Denoising of Microscopy Images using Generative Adversarial Networks and Contrastive Learning
+Repository for the paper "Generalizable Denoising of Microscopy Images using Generative Adversarial Networks and Contrastive Learning".
