@@ -40,6 +40,17 @@ args.fold_A = home_dir + 'data/Convallaria_diaphragm/fupn2v_pix2pix_uint16/A'
 args.fold_B = home_dir + 'data/Convallaria_diaphragm/fupn2v_pix2pix_uint16/B'
 args.fold_AB = home_dir + 'data/Convallaria_diaphragm/fupn2v_pix2pix_uint16/AB'
 
+# # Mouse actin
+# args.fold_A = home_dir + 'data/Mouse_actin/fupn2v_pix2pix_uint16/A'
+# args.fold_B = home_dir + 'data/Mouse_actin/fupn2v_pix2pix_uint16/B'
+# args.fold_AB = home_dir + 'data/Mouse_actin/fupn2v_pix2pix_uint16/AB'
+#
+# # Mouse skull nuclei
+# args.fold_A = home_dir + 'data/Mouse_skull_nuclei/fupn2v_pix2pix_uint16/A'
+# args.fold_B = home_dir + 'data/Mouse_skull_nuclei/fupn2v_pix2pix_uint16/B'
+# args.fold_AB = home_dir + 'data/Mouse_skull_nuclei/fupn2v_pix2pix_uint16/AB'
+
+
 for arg in vars(args):
     print('[%s] = ' % arg, getattr(args, arg))
 
